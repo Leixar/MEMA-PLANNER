@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Calendar_App
 {
@@ -16,6 +17,20 @@ namespace Calendar_App
         {
             InitializeComponent();
         }
+
+        /*SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"|DataDirectory|\dbPlanner.mdf\";Integrated Security=True");
+        SqlCommand cmd;
+        SqlDataReader dr;
+
+        private String getUsername
+        {
+            con.Open();
+            String syntax = "SELECT Value from mainTable where userName = rey";
+            cmd = new SqlCommand(syntax, con);
+            dr = cmd.ExecuteReader();
+            dr.Read();
+            MessageBox.Show("" + dr[0].ToString());
+        }*/
 
         private void LoginPage_Load(object sender, EventArgs e)
         {
@@ -53,9 +68,22 @@ namespace Calendar_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Tutorial openForm = new Tutorial();
-            openForm.Show();
-            Hide();
+            //getData();
+            String userName = "rey", passWord = "1296", uName, pWord;
+            uName = textBox1.Text;
+            pWord = textBox2.Text;
+
+            if ((uName.Equals(userName)) && (pWord.Equals(passWord)))
+            {
+                Tutorial openForm = new Tutorial();
+                openForm.Show();
+                Hide();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect Username or Password");
+            }
+            
         }
     }
 }
