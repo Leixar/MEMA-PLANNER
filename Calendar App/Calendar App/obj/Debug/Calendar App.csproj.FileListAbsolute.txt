@@ -17,3 +17,23 @@ C:\Users\ARIEL\source\repos\Calendar App\Calendar App\obj\Debug\Calendar_App.Mon
 C:\Users\ARIEL\source\repos\Calendar App\Calendar App\obj\Debug\Calendar_App.YearPanel.resources
 C:\Users\ARIEL\source\repos\Calendar App\Calendar App\obj\Debug\Calendar App.csprojResolveAssemblyReference.cache
 C:\Users\ARIEL\source\repos\Calendar App\Calendar App\obj\Debug\Calendar_App.EventsPage.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csprojResolveAssemblyReference.cache
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Calendar2018.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.EventsPage.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.SplashScreen.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.LoginPage.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.StartPage.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.RegisterPage.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Properties.Resources.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Properties.Boarder.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Tutorial.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Dashbord.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Heading.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Month2018.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.YearPanel.resources
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csproj.GenerateResource.Cache
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csproj.CoreCompileInputs.cache
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.exe
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.pdb
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.exe
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.pdb

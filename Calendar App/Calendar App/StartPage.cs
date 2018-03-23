@@ -33,15 +33,5 @@ namespace Calendar_App
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
-        private void boarder1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
-        {
-
-        }
     }
 }
