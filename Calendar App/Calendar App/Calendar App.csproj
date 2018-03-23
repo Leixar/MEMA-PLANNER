@@ -234,6 +234,7 @@
     <None Include="img\M Logo.png" />
     <None Include="img\Blank Circle.png" />
     <None Include="img\Blank Circle1.png" />
+<<<<<<< HEAD
     <Content Include="dbPlanner.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -241,6 +242,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>dbPlanner.mdf</DependentUpon>
     </Content>
+=======
+>>>>>>> f9fc4a9eff1c7d00c8fe1a1a3ba06dd1fab2ac1c
     <Content Include="M Icon.ico" />
   </ItemGroup>
   <ItemGroup>
