@@ -1130,5 +1130,87 @@ namespace Calendar_App
                 November.Width -= 27;
             }
         }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            textBox1.Enabled = true;
+            Add.Visible = false;
+            Delete.Visible = false;
+            
+        }
+
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+        }
+
+        private void Save_Click(object sender, EventArgs e)
+        {
+            textBox1.Enabled = false;
+            Add.Visible = true;
+            Delete.Visible = true;
+        }
+
+        private void Cancel_Click(object sender, EventArgs e)
+        {
+            textBox1.Undo();
+            textBox1.Enabled = false;
+            Add.Visible = true;
+            Delete.Visible = true;
+        }
+
+        private void Add2_Click(object sender, EventArgs e)
+        {
+            textBox2.Enabled = true;
+            Add2.Visible = false;
+            Delete2.Visible = false;
+        }
+
+        private void Delete2_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "";
+        }
+
+        private void Save2_Click(object sender, EventArgs e)
+        {
+            textBox2.Enabled = false;
+            Add2.Visible = true;
+            Delete2.Visible = true;
+        }
+
+        private void Cancel2_Click(object sender, EventArgs e)
+        {
+            textBox2.Undo();
+            textBox2.Enabled = false;
+            Add2.Visible = true;
+            Delete2.Visible = true;
+        }
+
+        private void Add3_Click(object sender, EventArgs e)
+        {
+            textBox3.Enabled = true;
+            Add3.Visible = false;
+            Delete3.Visible = false;
+        }
+
+        private void Delete3_Click(object sender, EventArgs e)
+        {
+            textBox3.Text = "";
+        }
+
+        private void Save3_Click(object sender, EventArgs e)
+        {
+            textBox3.Enabled = false;
+            Add3.Visible = true;
+            Delete3.Visible = true;
+        }
+
+        private void Cancel3_Click(object sender, EventArgs e)
+        {
+            textBox3.Undo();
+            textBox3.Enabled = false;
+            Add3.Visible = true;
+            Delete3.Visible = true;
+        }
     }
 }

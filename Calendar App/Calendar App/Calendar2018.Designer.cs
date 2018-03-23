@@ -84,7 +84,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.RightButton = new System.Windows.Forms.Button();
-            this.heading1 = new Calendar_App.Heading();
             this.February = new System.Windows.Forms.Panel();
             this.Feb = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -132,12 +131,10 @@
             this.label86 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.heading2 = new Calendar_App.Heading();
             this.March = new System.Windows.Forms.Panel();
             this.Mar = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.heading3 = new Calendar_App.Heading();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button86 = new System.Windows.Forms.Button();
             this.button110 = new System.Windows.Forms.Button();
@@ -228,7 +225,6 @@
             this.label164 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
-            this.heading4 = new Calendar_App.Heading();
             this.May = new System.Windows.Forms.Panel();
             this.Ma = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -277,7 +273,6 @@
             this.label224 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
-            this.heading5 = new Calendar_App.Heading();
             this.June = new System.Windows.Forms.Panel();
             this.Jun = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
@@ -326,7 +321,6 @@
             this.label252 = new System.Windows.Forms.Label();
             this.label269 = new System.Windows.Forms.Label();
             this.label270 = new System.Windows.Forms.Label();
-            this.heading6 = new Calendar_App.Heading();
             this.July = new System.Windows.Forms.Panel();
             this.Jul = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
@@ -374,7 +368,6 @@
             this.label289 = new System.Windows.Forms.Label();
             this.label292 = new System.Windows.Forms.Label();
             this.label300 = new System.Windows.Forms.Label();
-            this.heading7 = new Calendar_App.Heading();
             this.August = new System.Windows.Forms.Panel();
             this.Aug = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
@@ -423,7 +416,6 @@
             this.label338 = new System.Windows.Forms.Label();
             this.label361 = new System.Windows.Forms.Label();
             this.label362 = new System.Windows.Forms.Label();
-            this.heading8 = new Calendar_App.Heading();
             this.September = new System.Windows.Forms.Panel();
             this.Sep = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
@@ -473,7 +465,6 @@
             this.label383 = new System.Windows.Forms.Label();
             this.label385 = new System.Windows.Forms.Label();
             this.label408 = new System.Windows.Forms.Label();
-            this.heading9 = new Calendar_App.Heading();
             this.October = new System.Windows.Forms.Panel();
             this.Oct = new System.Windows.Forms.Button();
             this.button42 = new System.Windows.Forms.Button();
@@ -521,7 +512,6 @@
             this.label437 = new System.Windows.Forms.Label();
             this.label438 = new System.Windows.Forms.Label();
             this.label439 = new System.Windows.Forms.Label();
-            this.heading10 = new Calendar_App.Heading();
             this.November = new System.Windows.Forms.Panel();
             this.Nov = new System.Windows.Forms.Button();
             this.button47 = new System.Windows.Forms.Button();
@@ -569,7 +559,6 @@
             this.label481 = new System.Windows.Forms.Label();
             this.label482 = new System.Windows.Forms.Label();
             this.label484 = new System.Windows.Forms.Label();
-            this.heading11 = new Calendar_App.Heading();
             this.December = new System.Windows.Forms.Panel();
             this.Dec = new System.Windows.Forms.Button();
             this.button55 = new System.Windows.Forms.Button();
@@ -616,7 +605,6 @@
             this.label528 = new System.Windows.Forms.Label();
             this.label529 = new System.Windows.Forms.Label();
             this.label530 = new System.Windows.Forms.Label();
-            this.heading12 = new Calendar_App.Heading();
             this.Monsec = new System.Windows.Forms.Panel();
             this.mon1 = new System.Windows.Forms.Button();
             this.mon12 = new System.Windows.Forms.Button();
@@ -635,16 +623,9 @@
             this.mon3 = new System.Windows.Forms.Button();
             this.mon4 = new System.Windows.Forms.Button();
             this.EventPanel = new System.Windows.Forms.Panel();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -678,7 +659,35 @@
             this.NovemberShrink = new System.Windows.Forms.Timer(this.components);
             this.Minimize = new System.Windows.Forms.Button();
             this.Close = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Add = new System.Windows.Forms.Button();
+            this.Delete = new System.Windows.Forms.Button();
+            this.Cancel = new System.Windows.Forms.Button();
+            this.Save = new System.Windows.Forms.Button();
             this.dashbord1 = new Calendar_App.Dashbord();
+            this.heading1 = new Calendar_App.Heading();
+            this.heading2 = new Calendar_App.Heading();
+            this.heading3 = new Calendar_App.Heading();
+            this.heading4 = new Calendar_App.Heading();
+            this.heading5 = new Calendar_App.Heading();
+            this.heading6 = new Calendar_App.Heading();
+            this.heading7 = new Calendar_App.Heading();
+            this.heading8 = new Calendar_App.Heading();
+            this.heading9 = new Calendar_App.Heading();
+            this.heading10 = new Calendar_App.Heading();
+            this.heading11 = new Calendar_App.Heading();
+            this.heading12 = new Calendar_App.Heading();
+            this.Delete2 = new System.Windows.Forms.Button();
+            this.Add2 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Delete3 = new System.Windows.Forms.Button();
+            this.Add3 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Cancel2 = new System.Windows.Forms.Button();
+            this.Cancel3 = new System.Windows.Forms.Button();
+            this.Save2 = new System.Windows.Forms.Button();
+            this.Save3 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.January.SuspendLayout();
             this.datepanel.SuspendLayout();
@@ -1562,13 +1571,6 @@
             this.RightButton.UseVisualStyleBackColor = false;
             this.RightButton.Click += new System.EventHandler(this.RightButton_Click);
             // 
-            // heading1
-            // 
-            this.heading1.Location = new System.Drawing.Point(1, 1);
-            this.heading1.Name = "heading1";
-            this.heading1.Size = new System.Drawing.Size(484, 58);
-            this.heading1.TabIndex = 137;
-            // 
             // February
             // 
             this.February.Controls.Add(this.Feb);
@@ -2337,13 +2339,6 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // heading2
-            // 
-            this.heading2.Location = new System.Drawing.Point(0, 1);
-            this.heading2.Name = "heading2";
-            this.heading2.Size = new System.Drawing.Size(484, 58);
-            this.heading2.TabIndex = 138;
-            // 
             // March
             // 
             this.March.Controls.Add(this.Mar);
@@ -2406,13 +2401,6 @@
             this.button10.TabStop = false;
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // heading3
-            // 
-            this.heading3.Location = new System.Drawing.Point(1, 1);
-            this.heading3.Name = "heading3";
-            this.heading3.Size = new System.Drawing.Size(484, 58);
-            this.heading3.TabIndex = 139;
             // 
             // panel3
             // 
@@ -3870,13 +3858,6 @@
             this.button15.UseVisualStyleBackColor = false;
             this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
-            // heading4
-            // 
-            this.heading4.Location = new System.Drawing.Point(1, 1);
-            this.heading4.Name = "heading4";
-            this.heading4.Size = new System.Drawing.Size(484, 58);
-            this.heading4.TabIndex = 119;
-            // 
             // May
             // 
             this.May.Controls.Add(this.Ma);
@@ -4668,13 +4649,6 @@
             this.button20.UseVisualStyleBackColor = false;
             this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
-            // heading5
-            // 
-            this.heading5.Location = new System.Drawing.Point(1, 1);
-            this.heading5.Name = "heading5";
-            this.heading5.Size = new System.Drawing.Size(484, 58);
-            this.heading5.TabIndex = 119;
-            // 
             // June
             // 
             this.June.Controls.Add(this.Jun);
@@ -5465,13 +5439,6 @@
             this.label270.Size = new System.Drawing.Size(486, 10);
             this.label270.TabIndex = 113;
             // 
-            // heading6
-            // 
-            this.heading6.Location = new System.Drawing.Point(1, 1);
-            this.heading6.Name = "heading6";
-            this.heading6.Size = new System.Drawing.Size(484, 58);
-            this.heading6.TabIndex = 125;
-            // 
             // July
             // 
             this.July.Controls.Add(this.Jul);
@@ -6249,13 +6216,6 @@
             this.label300.TabIndex = 112;
             this.label300.Text = "1";
             this.label300.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // heading7
-            // 
-            this.heading7.Location = new System.Drawing.Point(1, 1);
-            this.heading7.Name = "heading7";
-            this.heading7.Size = new System.Drawing.Size(484, 58);
-            this.heading7.TabIndex = 119;
             // 
             // August
             // 
@@ -7046,13 +7006,6 @@
             this.label362.Name = "label362";
             this.label362.Size = new System.Drawing.Size(486, 10);
             this.label362.TabIndex = 113;
-            // 
-            // heading8
-            // 
-            this.heading8.Location = new System.Drawing.Point(1, 1);
-            this.heading8.Name = "heading8";
-            this.heading8.Size = new System.Drawing.Size(484, 58);
-            this.heading8.TabIndex = 119;
             // 
             // September
             // 
@@ -7852,13 +7805,6 @@
             this.label408.Size = new System.Drawing.Size(486, 10);
             this.label408.TabIndex = 113;
             // 
-            // heading9
-            // 
-            this.heading9.Location = new System.Drawing.Point(1, 1);
-            this.heading9.Name = "heading9";
-            this.heading9.Size = new System.Drawing.Size(484, 58);
-            this.heading9.TabIndex = 119;
-            // 
             // October
             // 
             this.October.Controls.Add(this.Oct);
@@ -8642,13 +8588,6 @@
             this.label439.Text = "3";
             this.label439.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // heading10
-            // 
-            this.heading10.Location = new System.Drawing.Point(1, 1);
-            this.heading10.Name = "heading10";
-            this.heading10.Size = new System.Drawing.Size(484, 58);
-            this.heading10.TabIndex = 119;
-            // 
             // November
             // 
             this.November.Controls.Add(this.Nov);
@@ -9424,13 +9363,6 @@
             this.label484.Text = "1";
             this.label484.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // heading11
-            // 
-            this.heading11.Location = new System.Drawing.Point(1, 1);
-            this.heading11.Name = "heading11";
-            this.heading11.Size = new System.Drawing.Size(484, 58);
-            this.heading11.TabIndex = 119;
-            // 
             // December
             // 
             this.December.Controls.Add(this.Dec);
@@ -10190,13 +10122,6 @@
             this.label530.Text = "5";
             this.label530.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // heading12
-            // 
-            this.heading12.Location = new System.Drawing.Point(1, 1);
-            this.heading12.Name = "heading12";
-            this.heading12.Size = new System.Drawing.Size(484, 58);
-            this.heading12.TabIndex = 119;
-            // 
             // Monsec
             // 
             this.Monsec.BackColor = System.Drawing.Color.DarkGray;
@@ -10466,14 +10391,23 @@
             // EventPanel
             // 
             this.EventPanel.BackColor = System.Drawing.Color.Gainsboro;
-            this.EventPanel.Controls.Add(this.checkBox3);
-            this.EventPanel.Controls.Add(this.checkBox2);
-            this.EventPanel.Controls.Add(this.checkBox1);
-            this.EventPanel.Controls.Add(this.label21);
+            this.EventPanel.Controls.Add(this.Add3);
+            this.EventPanel.Controls.Add(this.Add2);
+            this.EventPanel.Controls.Add(this.Save3);
+            this.EventPanel.Controls.Add(this.Save2);
+            this.EventPanel.Controls.Add(this.Delete3);
+            this.EventPanel.Controls.Add(this.Delete2);
+            this.EventPanel.Controls.Add(this.Cancel3);
+            this.EventPanel.Controls.Add(this.Cancel2);
+            this.EventPanel.Controls.Add(this.textBox3);
+            this.EventPanel.Controls.Add(this.textBox2);
+            this.EventPanel.Controls.Add(this.Delete);
+            this.EventPanel.Controls.Add(this.Add);
+            this.EventPanel.Controls.Add(this.Cancel);
+            this.EventPanel.Controls.Add(this.Save);
+            this.EventPanel.Controls.Add(this.textBox1);
             this.EventPanel.Controls.Add(this.label22);
-            this.EventPanel.Controls.Add(this.label19);
             this.EventPanel.Controls.Add(this.label20);
-            this.EventPanel.Controls.Add(this.label18);
             this.EventPanel.Controls.Add(this.label17);
             this.EventPanel.Controls.Add(this.label16);
             this.EventPanel.Controls.Add(this.label13);
@@ -10486,43 +10420,6 @@
             this.EventPanel.Size = new System.Drawing.Size(209, 354);
             this.EventPanel.TabIndex = 243;
             // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(162, 212);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 253;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(162, 151);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 252;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(162, 87);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 251;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(33, 243);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(98, 18);
-            this.label21.TabIndex = 250;
-            this.label21.Text = "Details - Time";
-            // 
             // label22
             // 
             this.label22.AutoSize = true;
@@ -10532,16 +10429,6 @@
             this.label22.Size = new System.Drawing.Size(119, 23);
             this.label22.TabIndex = 249;
             this.label22.Text = "Reminder 3";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(33, 176);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(98, 18);
-            this.label19.TabIndex = 248;
-            this.label19.Text = "Details - Time";
             // 
             // label20
             // 
@@ -10553,16 +10440,6 @@
             this.label20.TabIndex = 247;
             this.label20.Text = "Reminder 2";
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(33, 111);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(98, 18);
-            this.label18.TabIndex = 246;
-            this.label18.Text = "Details - Time";
-            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -10572,16 +10449,6 @@
             this.label17.Size = new System.Drawing.Size(139, 34);
             this.label17.TabIndex = 245;
             this.label17.Text = "MM . DD . YY";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(32, 81);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(118, 23);
-            this.label16.TabIndex = 244;
-            this.label16.Text = "Reminder 1";
             // 
             // label13
             // 
@@ -10806,6 +10673,64 @@
             this.Close.UseVisualStyleBackColor = false;
             this.Close.Click += new System.EventHandler(this.Close_Click);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(32, 81);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(118, 23);
+            this.label16.TabIndex = 244;
+            this.label16.Text = "Reminder 1";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(36, 114);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 254;
+            // 
+            // Add
+            // 
+            this.Add.Location = new System.Drawing.Point(149, 114);
+            this.Add.Name = "Add";
+            this.Add.Size = new System.Drawing.Size(20, 20);
+            this.Add.TabIndex = 255;
+            this.Add.Text = "A";
+            this.Add.UseVisualStyleBackColor = true;
+            this.Add.Click += new System.EventHandler(this.Add_Click);
+            // 
+            // Delete
+            // 
+            this.Delete.Location = new System.Drawing.Point(175, 114);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(20, 20);
+            this.Delete.TabIndex = 256;
+            this.Delete.Text = "D";
+            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
+            // 
+            // Cancel
+            // 
+            this.Cancel.Location = new System.Drawing.Point(175, 114);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(20, 20);
+            this.Cancel.TabIndex = 258;
+            this.Cancel.Text = "C";
+            this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
+            // 
+            // Save
+            // 
+            this.Save.Location = new System.Drawing.Point(149, 114);
+            this.Save.Name = "Save";
+            this.Save.Size = new System.Drawing.Size(20, 20);
+            this.Save.TabIndex = 257;
+            this.Save.Text = "S";
+            this.Save.UseVisualStyleBackColor = true;
+            this.Save.Click += new System.EventHandler(this.Save_Click);
+            // 
             // dashbord1
             // 
             this.dashbord1.BackColor = System.Drawing.Color.Silver;
@@ -10813,6 +10738,186 @@
             this.dashbord1.Name = "dashbord1";
             this.dashbord1.Size = new System.Drawing.Size(0, 392);
             this.dashbord1.TabIndex = 241;
+            // 
+            // heading1
+            // 
+            this.heading1.Location = new System.Drawing.Point(1, 1);
+            this.heading1.Name = "heading1";
+            this.heading1.Size = new System.Drawing.Size(484, 58);
+            this.heading1.TabIndex = 137;
+            // 
+            // heading2
+            // 
+            this.heading2.Location = new System.Drawing.Point(0, 1);
+            this.heading2.Name = "heading2";
+            this.heading2.Size = new System.Drawing.Size(484, 58);
+            this.heading2.TabIndex = 138;
+            // 
+            // heading3
+            // 
+            this.heading3.Location = new System.Drawing.Point(1, 1);
+            this.heading3.Name = "heading3";
+            this.heading3.Size = new System.Drawing.Size(484, 58);
+            this.heading3.TabIndex = 139;
+            // 
+            // heading4
+            // 
+            this.heading4.Location = new System.Drawing.Point(1, 1);
+            this.heading4.Name = "heading4";
+            this.heading4.Size = new System.Drawing.Size(484, 58);
+            this.heading4.TabIndex = 119;
+            // 
+            // heading5
+            // 
+            this.heading5.Location = new System.Drawing.Point(1, 1);
+            this.heading5.Name = "heading5";
+            this.heading5.Size = new System.Drawing.Size(484, 58);
+            this.heading5.TabIndex = 119;
+            // 
+            // heading6
+            // 
+            this.heading6.Location = new System.Drawing.Point(1, 1);
+            this.heading6.Name = "heading6";
+            this.heading6.Size = new System.Drawing.Size(484, 58);
+            this.heading6.TabIndex = 125;
+            // 
+            // heading7
+            // 
+            this.heading7.Location = new System.Drawing.Point(1, 1);
+            this.heading7.Name = "heading7";
+            this.heading7.Size = new System.Drawing.Size(484, 58);
+            this.heading7.TabIndex = 119;
+            // 
+            // heading8
+            // 
+            this.heading8.Location = new System.Drawing.Point(1, 1);
+            this.heading8.Name = "heading8";
+            this.heading8.Size = new System.Drawing.Size(484, 58);
+            this.heading8.TabIndex = 119;
+            // 
+            // heading9
+            // 
+            this.heading9.Location = new System.Drawing.Point(1, 1);
+            this.heading9.Name = "heading9";
+            this.heading9.Size = new System.Drawing.Size(484, 58);
+            this.heading9.TabIndex = 119;
+            // 
+            // heading10
+            // 
+            this.heading10.Location = new System.Drawing.Point(1, 1);
+            this.heading10.Name = "heading10";
+            this.heading10.Size = new System.Drawing.Size(484, 58);
+            this.heading10.TabIndex = 119;
+            // 
+            // heading11
+            // 
+            this.heading11.Location = new System.Drawing.Point(1, 1);
+            this.heading11.Name = "heading11";
+            this.heading11.Size = new System.Drawing.Size(484, 58);
+            this.heading11.TabIndex = 119;
+            // 
+            // heading12
+            // 
+            this.heading12.Location = new System.Drawing.Point(1, 1);
+            this.heading12.Name = "heading12";
+            this.heading12.Size = new System.Drawing.Size(484, 58);
+            this.heading12.TabIndex = 119;
+            // 
+            // Delete2
+            // 
+            this.Delete2.Location = new System.Drawing.Point(175, 173);
+            this.Delete2.Name = "Delete2";
+            this.Delete2.Size = new System.Drawing.Size(20, 20);
+            this.Delete2.TabIndex = 261;
+            this.Delete2.Text = "D";
+            this.Delete2.UseVisualStyleBackColor = true;
+            this.Delete2.Click += new System.EventHandler(this.Delete2_Click);
+            // 
+            // Add2
+            // 
+            this.Add2.Location = new System.Drawing.Point(149, 173);
+            this.Add2.Name = "Add2";
+            this.Add2.Size = new System.Drawing.Size(20, 20);
+            this.Add2.TabIndex = 260;
+            this.Add2.Text = "A";
+            this.Add2.UseVisualStyleBackColor = true;
+            this.Add2.Click += new System.EventHandler(this.Add2_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(36, 173);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 259;
+            // 
+            // Delete3
+            // 
+            this.Delete3.Location = new System.Drawing.Point(175, 243);
+            this.Delete3.Name = "Delete3";
+            this.Delete3.Size = new System.Drawing.Size(20, 20);
+            this.Delete3.TabIndex = 264;
+            this.Delete3.Text = "D";
+            this.Delete3.UseVisualStyleBackColor = true;
+            this.Delete3.Click += new System.EventHandler(this.Delete3_Click);
+            // 
+            // Add3
+            // 
+            this.Add3.Location = new System.Drawing.Point(149, 243);
+            this.Add3.Name = "Add3";
+            this.Add3.Size = new System.Drawing.Size(20, 20);
+            this.Add3.TabIndex = 263;
+            this.Add3.Text = "A";
+            this.Add3.UseVisualStyleBackColor = true;
+            this.Add3.Click += new System.EventHandler(this.Add3_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(36, 243);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 262;
+            // 
+            // Cancel2
+            // 
+            this.Cancel2.Location = new System.Drawing.Point(175, 173);
+            this.Cancel2.Name = "Cancel2";
+            this.Cancel2.Size = new System.Drawing.Size(20, 20);
+            this.Cancel2.TabIndex = 265;
+            this.Cancel2.Text = "C";
+            this.Cancel2.UseVisualStyleBackColor = true;
+            this.Cancel2.Click += new System.EventHandler(this.Cancel2_Click);
+            // 
+            // Cancel3
+            // 
+            this.Cancel3.Location = new System.Drawing.Point(175, 243);
+            this.Cancel3.Name = "Cancel3";
+            this.Cancel3.Size = new System.Drawing.Size(20, 20);
+            this.Cancel3.TabIndex = 266;
+            this.Cancel3.Text = "C";
+            this.Cancel3.UseVisualStyleBackColor = true;
+            this.Cancel3.Click += new System.EventHandler(this.Cancel3_Click);
+            // 
+            // Save2
+            // 
+            this.Save2.Location = new System.Drawing.Point(149, 173);
+            this.Save2.Name = "Save2";
+            this.Save2.Size = new System.Drawing.Size(20, 20);
+            this.Save2.TabIndex = 267;
+            this.Save2.Text = "S";
+            this.Save2.UseVisualStyleBackColor = true;
+            this.Save2.Click += new System.EventHandler(this.Save2_Click);
+            // 
+            // Save3
+            // 
+            this.Save3.Location = new System.Drawing.Point(149, 243);
+            this.Save3.Name = "Save3";
+            this.Save3.Size = new System.Drawing.Size(20, 20);
+            this.Save3.TabIndex = 268;
+            this.Save3.Text = "S";
+            this.Save3.UseVisualStyleBackColor = true;
+            this.Save3.Click += new System.EventHandler(this.Save3_Click);
             // 
             // Calendar2018
             // 
@@ -11518,18 +11623,27 @@
         private System.Windows.Forms.Label label113;
         private System.Windows.Forms.Label label115;
         private System.Windows.Forms.Label label132;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Cancel;
+        private System.Windows.Forms.Button Save;
+        private System.Windows.Forms.Button Delete;
+        private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button Add3;
+        private System.Windows.Forms.Button Add2;
+        private System.Windows.Forms.Button Save3;
+        private System.Windows.Forms.Button Save2;
+        private System.Windows.Forms.Button Delete3;
+        private System.Windows.Forms.Button Delete2;
+        private System.Windows.Forms.Button Cancel3;
+        private System.Windows.Forms.Button Cancel2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
