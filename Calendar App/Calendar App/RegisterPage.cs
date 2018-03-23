@@ -98,6 +98,7 @@ namespace Calendar_App
         {
 
         }
+<<<<<<< HEAD
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -108,5 +109,7 @@ namespace Calendar_App
         {
 
         }
+=======
+>>>>>>> 24b494648210f402ddb02e39d42d9025304286d9
     }
 }
