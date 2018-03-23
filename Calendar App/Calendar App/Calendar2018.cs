@@ -79,31 +79,38 @@ namespace Calendar_App
 
         private void Calendar2018_Click(object sender, EventArgs e)
         {
-            dashbordshrink.Enabled = true;
-            January.Enabled = true;
-            February.Enabled = true;
-            March.Enabled = true;
-            April.Enabled = true;
-            May.Enabled = true;
-            June.Enabled = true;
-            July.Enabled = true;
-            August.Enabled = true;
-            September.Enabled = true;
-            October.Enabled = true;
-            November.Enabled = true;
-            December.Enabled = true;
-            heading1.Enabled = true;
-            heading2.Enabled = true;
-            heading3.Enabled = true;
-            heading4.Enabled = true;
-            heading5.Enabled = true;
-            heading6.Enabled = true;
-            heading7.Enabled = true;
-            heading8.Enabled = true;
-            heading9.Enabled = true;
-            heading10.Enabled = true;
-            heading11.Enabled = true;
-            heading12.Enabled = true;
+            if (dashbord1.Width >= 207)
+            {
+                dashbordshrink.Enabled = true;
+                January.Enabled = true;
+                February.Enabled = true;
+                March.Enabled = true;
+                April.Enabled = true;
+                May.Enabled = true;
+                June.Enabled = true;
+                July.Enabled = true;
+                August.Enabled = true;
+                September.Enabled = true;
+                October.Enabled = true;
+                November.Enabled = true;
+                December.Enabled = true;
+                heading1.Enabled = true;
+                heading2.Enabled = true;
+                heading3.Enabled = true;
+                heading4.Enabled = true;
+                heading5.Enabled = true;
+                heading6.Enabled = true;
+                heading7.Enabled = true;
+                heading8.Enabled = true;
+                heading9.Enabled = true;
+                heading10.Enabled = true;
+                heading11.Enabled = true;
+                heading12.Enabled = true;
+            }
+            else
+            {
+                this.Enabled = true;
+            }
         }
 
         private void RightButton_Click(object sender, EventArgs e)
@@ -815,10 +822,12 @@ namespace Calendar_App
             if (dashbord1.Width >= 207)
             {
                 dashbordgrow.Enabled = false;
+                this.Enabled = true;
             }
             else
             {
                 dashbord1.Width += 23;
+                this.Enabled = false;
             }
         }
 
