@@ -46,10 +46,10 @@
             this.label43 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.Tutorial2 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.label48 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
@@ -73,7 +73,10 @@
             this.topborder = new System.Windows.Forms.Label();
             this.bottomborder = new System.Windows.Forms.Label();
             this.January = new System.Windows.Forms.Panel();
+            this.jan = new System.Windows.Forms.Button();
             this.button55 = new System.Windows.Forms.Button();
+            this.RightButton = new System.Windows.Forms.Button();
+            this.heading2 = new Calendar_App.Heading();
             this.datepanel = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
@@ -117,8 +120,6 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.RightButton = new System.Windows.Forms.Button();
-            this.heading2 = new Calendar_App.Heading();
             this.Tutorial3 = new System.Windows.Forms.Panel();
             this.label70 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
@@ -165,7 +166,6 @@
             this.label83 = new System.Windows.Forms.Label();
             this.buttonEnd = new System.Windows.Forms.Button();
             this.dashbord1 = new Calendar_App.Dashbord();
-            this.jan = new System.Windows.Forms.Button();
             this.TutorialStart.SuspendLayout();
             this.Tutorial1.SuspendLayout();
             this.Tutorial2.SuspendLayout();
@@ -382,14 +382,18 @@
             this.Tutorial2.Size = new System.Drawing.Size(484, 148);
             this.Tutorial2.TabIndex = 267;
             // 
-            // label6
+            // button10
             // 
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label6.Location = new System.Drawing.Point(0, 143);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(484, 5);
-            this.label6.TabIndex = 274;
+            this.button10.BackgroundImage = global::Calendar_App.Properties.Resources.Left2;
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Location = new System.Drawing.Point(4, 43);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(30, 30);
+            this.button10.TabIndex = 17;
+            this.button10.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
@@ -405,6 +409,15 @@
             this.button9.TabIndex = 273;
             this.button9.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label6.Location = new System.Drawing.Point(0, 143);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(484, 5);
+            this.label6.TabIndex = 274;
+            // 
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.DarkGray;
@@ -419,19 +432,6 @@
             this.button11.Text = "Next";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // button10
-            // 
-            this.button10.BackgroundImage = global::Calendar_App.Properties.Resources.Left2;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(4, 43);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(30, 30);
-            this.button10.TabIndex = 17;
-            this.button10.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
@@ -717,6 +717,19 @@
             this.January.Size = new System.Drawing.Size(486, 353);
             this.January.TabIndex = 278;
             // 
+            // jan
+            // 
+            this.jan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
+            this.jan.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
+            this.jan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jan.Font = new System.Drawing.Font("Impact", 20.25F);
+            this.jan.Location = new System.Drawing.Point(139, 0);
+            this.jan.Name = "jan";
+            this.jan.Size = new System.Drawing.Size(208, 39);
+            this.jan.TabIndex = 280;
+            this.jan.Text = "January";
+            this.jan.UseVisualStyleBackColor = false;
+            // 
             // button55
             // 
             this.button55.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button55.BackgroundImage")));
@@ -730,6 +743,28 @@
             this.button55.Size = new System.Drawing.Size(30, 30);
             this.button55.TabIndex = 279;
             this.button55.UseVisualStyleBackColor = true;
+            // 
+            // RightButton
+            // 
+            this.RightButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RightButton.BackgroundImage")));
+            this.RightButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RightButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RightButton.FlatAppearance.BorderSize = 0;
+            this.RightButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.RightButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RightButton.Location = new System.Drawing.Point(452, 4);
+            this.RightButton.Name = "RightButton";
+            this.RightButton.Size = new System.Drawing.Size(30, 30);
+            this.RightButton.TabIndex = 133;
+            this.RightButton.UseVisualStyleBackColor = true;
+            // 
+            // heading2
+            // 
+            this.heading2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.heading2.Location = new System.Drawing.Point(1, 1);
+            this.heading2.Name = "heading2";
+            this.heading2.Size = new System.Drawing.Size(484, 58);
+            this.heading2.TabIndex = 137;
             // 
             // datepanel
             // 
@@ -1344,28 +1379,6 @@
             this.label41.Text = "24";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // RightButton
-            // 
-            this.RightButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RightButton.BackgroundImage")));
-            this.RightButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.RightButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RightButton.FlatAppearance.BorderSize = 0;
-            this.RightButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.RightButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RightButton.Location = new System.Drawing.Point(452, 4);
-            this.RightButton.Name = "RightButton";
-            this.RightButton.Size = new System.Drawing.Size(30, 30);
-            this.RightButton.TabIndex = 133;
-            this.RightButton.UseVisualStyleBackColor = true;
-            // 
-            // heading2
-            // 
-            this.heading2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.heading2.Location = new System.Drawing.Point(1, 1);
-            this.heading2.Name = "heading2";
-            this.heading2.Size = new System.Drawing.Size(484, 58);
-            this.heading2.TabIndex = 137;
-            // 
             // Tutorial3
             // 
             this.Tutorial3.BackColor = System.Drawing.Color.Gray;
@@ -1957,19 +1970,6 @@
             this.dashbord1.Size = new System.Drawing.Size(207, 392);
             this.dashbord1.TabIndex = 280;
             // 
-            // jan
-            // 
-            this.jan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.jan.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            this.jan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.jan.Font = new System.Drawing.Font("Impact", 20.25F);
-            this.jan.Location = new System.Drawing.Point(139, 0);
-            this.jan.Name = "jan";
-            this.jan.Size = new System.Drawing.Size(208, 39);
-            this.jan.TabIndex = 280;
-            this.jan.Text = "January";
-            this.jan.UseVisualStyleBackColor = false;
-            // 
             // Tutorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1994,6 +1994,7 @@
             this.Controls.Add(this.January);
             this.Controls.Add(this.bottomborder);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Tutorial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Tutorial_Load);
