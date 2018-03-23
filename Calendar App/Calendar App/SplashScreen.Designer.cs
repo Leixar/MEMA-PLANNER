@@ -86,7 +86,14 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SplashScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+<<<<<<< HEAD
             this.Text = "-rey";
+=======
+<<<<<<< HEAD
+            this.Text = "-rey";
+=======
+>>>>>>> f9fc4a9eff1c7d00c8fe1a1a3ba06dd1fab2ac1c
+>>>>>>> 021f30891eac4fc73e6079181f28203e4bfb389f
             this.TransparencyKey = System.Drawing.Color.Silver;
             this.Load += new System.EventHandler(this.SplashScreen_Load);
             this.Logo.ResumeLayout(false);

@@ -37,6 +37,7 @@ C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug
 C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.pdb
 C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.exe
 C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.pdb
+<<<<<<< HEAD
 C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\dbPlanner.mdf
 C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\dbPlanner_log.ldf
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 6\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\dbPlanner.mdf
@@ -61,3 +62,59 @@ C:\Users\ARIEL\Desktop\Files\Commits\Commit 6\MEMA-PLANNER\Calendar App\Calendar
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 6\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csproj.CoreCompileInputs.cache
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 6\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.exe
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 6\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.pdb
+=======
+<<<<<<< HEAD
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\dbPlanner.mdf
+C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\dbPlanner_log.ldf
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 78843971d7d4268f484bc1f963b5977f1e77f4a0
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.exe
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.pdb
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csprojResolveAssemblyReference.cache
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Calendar2018.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.EventsPage.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.SplashScreen.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.LoginPage.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.StartPage.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.RegisterPage.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Properties.Resources.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Properties.Boarder.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Tutorial.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Dashbord.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Heading.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Month2018.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.YearPanel.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csproj.GenerateResource.cache
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csproj.CoreCompileInputs.cache
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.exe
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.pdb
+<<<<<<< HEAD
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.exe
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.pdb
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csprojResolveAssemblyReference.cache
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Calendar2018.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.EventsPage.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.SplashScreen.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.LoginPage.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.StartPage.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.RegisterPage.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Properties.Resources.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Properties.Boarder.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Tutorial.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Dashbord.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Heading.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.Month2018.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar_App.YearPanel.resources
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csproj.GenerateResource.cache
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csproj.CoreCompileInputs.cache
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.exe
+C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.pdb
+=======
+=======
+>>>>>>> ea7f280868236ccaab195179a74c231ea819c130
+>>>>>>> 78843971d7d4268f484bc1f963b5977f1e77f4a0
+>>>>>>> f9fc4a9eff1c7d00c8fe1a1a3ba06dd1fab2ac1c
+>>>>>>> 021f30891eac4fc73e6079181f28203e4bfb389f
