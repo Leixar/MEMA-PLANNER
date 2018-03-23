@@ -37,6 +37,10 @@ C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug
 C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.pdb
 C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.exe
 C:\Users\ARIEL\Documents\GitHub\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 78843971d7d4268f484bc1f963b5977f1e77f4a0
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.exe
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.pdb
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csprojResolveAssemblyReference.cache
@@ -57,6 +61,7 @@ C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar 
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csproj.CoreCompileInputs.cache
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.exe
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 3 (Birthdate)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.pdb
+<<<<<<< HEAD
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.exe
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\bin\Debug\Calendar App.pdb
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csprojResolveAssemblyReference.cache
@@ -77,3 +82,7 @@ C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\C
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.csproj.CoreCompileInputs.cache
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.exe
 C:\Users\ARIEL\Desktop\Files\Commits\Commit 4 (Animation Bug Fix)\MEMA-PLANNER\Calendar App\Calendar App\obj\Debug\Calendar App.pdb
+=======
+=======
+>>>>>>> ea7f280868236ccaab195179a74c231ea819c130
+>>>>>>> 78843971d7d4268f484bc1f963b5977f1e77f4a0
