@@ -29,6 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterPage));
+<<<<<<< HEAD
+=======
+            this.button3 = new System.Windows.Forms.Button();
+            this.pbpic = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+>>>>>>> ea7f280868236ccaab195179a74c231ea819c130
             this.label3 = new System.Windows.Forms.Label();
             this.opbl = new System.Windows.Forms.OpenFileDialog();
             this.boarder1 = new Calendar_App.Properties.Boarder();
