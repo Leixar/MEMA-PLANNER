@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Calendar_App
 {
@@ -17,9 +18,27 @@ namespace Calendar_App
             InitializeComponent();
         }
 
+        SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"|DataDirectory|\\dbPlanner.mdf\";Integrated Security=True");
+        SqlCommand cmd;
+        SqlDataReader dr;
+
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("You can Login to your Profile.", "Profile Created");
+            connection.Open();
+            SqlCommand cmd = connection.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "INSERT INTO mainTable (firstName) Values ('" + textBox1.Text + "')";
+            cmd.ExecuteNonQuery();
+            cmd.CommandText = "INSERT INTO mainTable (lastName) Values ('" + textBox2.Text + "')";
+            cmd.ExecuteNonQuery();
+            cmd.CommandText = "INSERT INTO mainTable (userName) Values ('" + textBox4.Text + "')";
+            cmd.ExecuteNonQuery();
+            cmd.CommandText = "INSERT INTO mainTable (passWord) Values ('" + textBox3.Text + "')";
+            cmd.ExecuteNonQuery();
+            connection.Close();
+            textBox1.Text = "";
+
+            MessageBox.Show("Profile Created Succesfully !!!");
             LoginPage openForm = new LoginPage();
             openForm.Show();
             Hide();
@@ -105,6 +124,21 @@ namespace Calendar_App
         }
 
         private void boarder1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged_1(object sender, EventArgs e)
         {
 
         }

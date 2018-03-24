@@ -635,14 +635,23 @@
             this.mon3 = new System.Windows.Forms.Button();
             this.mon4 = new System.Windows.Forms.Button();
             this.EventPanel = new System.Windows.Forms.Panel();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label21 = new System.Windows.Forms.Label();
+            this.Add3 = new System.Windows.Forms.Button();
+            this.Add2 = new System.Windows.Forms.Button();
+            this.Save3 = new System.Windows.Forms.Button();
+            this.Save2 = new System.Windows.Forms.Button();
+            this.Delete3 = new System.Windows.Forms.Button();
+            this.Delete2 = new System.Windows.Forms.Button();
+            this.Cancel3 = new System.Windows.Forms.Button();
+            this.Cancel2 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Delete = new System.Windows.Forms.Button();
+            this.Add = new System.Windows.Forms.Button();
+            this.Cancel = new System.Windows.Forms.Button();
+            this.Save = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -676,9 +685,9 @@
             this.OctoberGrow = new System.Windows.Forms.Timer(this.components);
             this.NovemberGrow = new System.Windows.Forms.Timer(this.components);
             this.NovemberShrink = new System.Windows.Forms.Timer(this.components);
+            this.dashbord1 = new Calendar_App.Dashbord();
             this.Minimize = new System.Windows.Forms.Button();
             this.Close = new System.Windows.Forms.Button();
-            this.dashbord1 = new Calendar_App.Dashbord();
             this.panel2.SuspendLayout();
             this.January.SuspendLayout();
             this.datepanel.SuspendLayout();
@@ -10466,14 +10475,23 @@
             // EventPanel
             // 
             this.EventPanel.BackColor = System.Drawing.Color.Gainsboro;
-            this.EventPanel.Controls.Add(this.checkBox3);
-            this.EventPanel.Controls.Add(this.checkBox2);
-            this.EventPanel.Controls.Add(this.checkBox1);
-            this.EventPanel.Controls.Add(this.label21);
+            this.EventPanel.Controls.Add(this.Add3);
+            this.EventPanel.Controls.Add(this.Add2);
+            this.EventPanel.Controls.Add(this.Save3);
+            this.EventPanel.Controls.Add(this.Save2);
+            this.EventPanel.Controls.Add(this.Delete3);
+            this.EventPanel.Controls.Add(this.Delete2);
+            this.EventPanel.Controls.Add(this.Cancel3);
+            this.EventPanel.Controls.Add(this.Cancel2);
+            this.EventPanel.Controls.Add(this.textBox3);
+            this.EventPanel.Controls.Add(this.textBox2);
+            this.EventPanel.Controls.Add(this.Delete);
+            this.EventPanel.Controls.Add(this.Add);
+            this.EventPanel.Controls.Add(this.Cancel);
+            this.EventPanel.Controls.Add(this.Save);
+            this.EventPanel.Controls.Add(this.textBox1);
             this.EventPanel.Controls.Add(this.label22);
-            this.EventPanel.Controls.Add(this.label19);
             this.EventPanel.Controls.Add(this.label20);
-            this.EventPanel.Controls.Add(this.label18);
             this.EventPanel.Controls.Add(this.label17);
             this.EventPanel.Controls.Add(this.label16);
             this.EventPanel.Controls.Add(this.label13);
@@ -10486,42 +10504,220 @@
             this.EventPanel.Size = new System.Drawing.Size(209, 354);
             this.EventPanel.TabIndex = 243;
             // 
-            // checkBox3
+            // Add3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(162, 212);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 253;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.Add3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Add3.BackgroundImage")));
+            this.Add3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Add3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Add3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Add3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Add3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Add3.Location = new System.Drawing.Point(149, 243);
+            this.Add3.Name = "Add3";
+            this.Add3.Size = new System.Drawing.Size(20, 20);
+            this.Add3.TabIndex = 263;
+            this.Add3.UseVisualStyleBackColor = true;
+            this.Add3.Click += new System.EventHandler(this.Add3_Click);
             // 
-            // checkBox2
+            // Add2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(162, 151);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 252;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.Add2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Add2.BackgroundImage")));
+            this.Add2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Add2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Add2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Add2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Add2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Add2.Location = new System.Drawing.Point(149, 173);
+            this.Add2.Name = "Add2";
+            this.Add2.Size = new System.Drawing.Size(20, 20);
+            this.Add2.TabIndex = 260;
+            this.Add2.UseVisualStyleBackColor = true;
+            this.Add2.Click += new System.EventHandler(this.Add2_Click);
             // 
-            // checkBox1
+            // Save3
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(162, 87);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 251;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.Save3.BackgroundImage = global::Calendar_App.Properties.Resources.Save_icon;
+            this.Save3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Save3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Save3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Save3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Save3.Location = new System.Drawing.Point(149, 243);
+            this.Save3.Name = "Save3";
+            this.Save3.Size = new System.Drawing.Size(20, 20);
+            this.Save3.TabIndex = 268;
+            this.Save3.Text = "S";
+            this.Save3.UseVisualStyleBackColor = true;
+            this.Save3.Click += new System.EventHandler(this.Save3_Click);
             // 
-            // label21
+            // Save2
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(33, 243);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(98, 18);
-            this.label21.TabIndex = 250;
-            this.label21.Text = "Details - Time";
+            this.Save2.BackgroundImage = global::Calendar_App.Properties.Resources.Save_icon;
+            this.Save2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Save2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Save2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Save2.Location = new System.Drawing.Point(149, 173);
+            this.Save2.Name = "Save2";
+            this.Save2.Size = new System.Drawing.Size(20, 20);
+            this.Save2.TabIndex = 267;
+            this.Save2.Text = "S";
+            this.Save2.UseVisualStyleBackColor = true;
+            this.Save2.Click += new System.EventHandler(this.Save2_Click);
+            // 
+            // Delete3
+            // 
+            this.Delete3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Delete3.BackgroundImage")));
+            this.Delete3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Delete3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Delete3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Delete3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Delete3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delete3.Location = new System.Drawing.Point(175, 243);
+            this.Delete3.Name = "Delete3";
+            this.Delete3.Size = new System.Drawing.Size(20, 20);
+            this.Delete3.TabIndex = 264;
+            this.Delete3.Text = "D";
+            this.Delete3.UseVisualStyleBackColor = true;
+            this.Delete3.Click += new System.EventHandler(this.Delete3_Click);
+            // 
+            // Delete2
+            // 
+            this.Delete2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Delete2.BackgroundImage")));
+            this.Delete2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Delete2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Delete2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Delete2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Delete2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delete2.Location = new System.Drawing.Point(175, 173);
+            this.Delete2.Name = "Delete2";
+            this.Delete2.Size = new System.Drawing.Size(20, 20);
+            this.Delete2.TabIndex = 261;
+            this.Delete2.Text = "D";
+            this.Delete2.UseVisualStyleBackColor = true;
+            this.Delete2.Click += new System.EventHandler(this.Delete2_Click);
+            // 
+            // Cancel3
+            // 
+            this.Cancel3.BackgroundImage = global::Calendar_App.Properties.Resources.back_icon;
+            this.Cancel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Cancel3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cancel3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Cancel3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Cancel3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cancel3.Location = new System.Drawing.Point(175, 243);
+            this.Cancel3.Name = "Cancel3";
+            this.Cancel3.Size = new System.Drawing.Size(20, 20);
+            this.Cancel3.TabIndex = 266;
+            this.Cancel3.Text = "C";
+            this.Cancel3.UseVisualStyleBackColor = true;
+            this.Cancel3.Click += new System.EventHandler(this.Cancel3_Click);
+            // 
+            // Cancel2
+            // 
+            this.Cancel2.BackgroundImage = global::Calendar_App.Properties.Resources.back_icon;
+            this.Cancel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Cancel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cancel2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Cancel2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Cancel2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cancel2.Location = new System.Drawing.Point(175, 173);
+            this.Cancel2.Name = "Cancel2";
+            this.Cancel2.Size = new System.Drawing.Size(20, 20);
+            this.Cancel2.TabIndex = 265;
+            this.Cancel2.Text = "C";
+            this.Cancel2.UseVisualStyleBackColor = true;
+            this.Cancel2.Click += new System.EventHandler(this.Cancel2_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(36, 243);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 262;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(36, 173);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 259;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // Delete
+            // 
+            this.Delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Delete.BackgroundImage")));
+            this.Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Delete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Delete.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Delete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delete.Location = new System.Drawing.Point(175, 114);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(20, 20);
+            this.Delete.TabIndex = 256;
+            this.Delete.Text = "D";
+            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
+            // 
+            // Add
+            // 
+            this.Add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Add.BackgroundImage")));
+            this.Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Add.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Add.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Add.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Add.Location = new System.Drawing.Point(149, 114);
+            this.Add.Name = "Add";
+            this.Add.Size = new System.Drawing.Size(20, 20);
+            this.Add.TabIndex = 255;
+            this.Add.UseVisualStyleBackColor = true;
+            this.Add.Click += new System.EventHandler(this.Add_Click);
+            // 
+            // Cancel
+            // 
+            this.Cancel.BackgroundImage = global::Calendar_App.Properties.Resources.back_icon;
+            this.Cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Cancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cancel.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Cancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cancel.Location = new System.Drawing.Point(175, 114);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(20, 20);
+            this.Cancel.TabIndex = 258;
+            this.Cancel.Text = "C";
+            this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
+            // 
+            // Save
+            // 
+            this.Save.BackgroundImage = global::Calendar_App.Properties.Resources.Save_icon;
+            this.Save.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Save.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Save.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.Save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Save.Location = new System.Drawing.Point(149, 114);
+            this.Save.Name = "Save";
+            this.Save.Size = new System.Drawing.Size(20, 20);
+            this.Save.TabIndex = 257;
+            this.Save.Text = "S";
+            this.Save.UseVisualStyleBackColor = true;
+            this.Save.Click += new System.EventHandler(this.Save_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(36, 114);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 254;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label22
             // 
@@ -10533,16 +10729,6 @@
             this.label22.TabIndex = 249;
             this.label22.Text = "Reminder 3";
             // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(33, 176);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(98, 18);
-            this.label19.TabIndex = 248;
-            this.label19.Text = "Details - Time";
-            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -10552,16 +10738,6 @@
             this.label20.Size = new System.Drawing.Size(119, 23);
             this.label20.TabIndex = 247;
             this.label20.Text = "Reminder 2";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(33, 111);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(98, 18);
-            this.label18.TabIndex = 246;
-            this.label18.Text = "Details - Time";
             // 
             // label17
             // 
@@ -10768,6 +10944,14 @@
             this.NovemberShrink.Interval = 1;
             this.NovemberShrink.Tick += new System.EventHandler(this.NovemberShrink_Tick);
             // 
+            // dashbord1
+            // 
+            this.dashbord1.BackColor = System.Drawing.Color.Silver;
+            this.dashbord1.Location = new System.Drawing.Point(3, 32);
+            this.dashbord1.Name = "dashbord1";
+            this.dashbord1.Size = new System.Drawing.Size(0, 392);
+            this.dashbord1.TabIndex = 241;
+            // 
             // Minimize
             // 
             this.Minimize.BackColor = System.Drawing.Color.Black;
@@ -10805,14 +10989,6 @@
             this.Close.TabStop = false;
             this.Close.UseVisualStyleBackColor = false;
             this.Close.Click += new System.EventHandler(this.Close_Click);
-            // 
-            // dashbord1
-            // 
-            this.dashbord1.BackColor = System.Drawing.Color.Silver;
-            this.dashbord1.Location = new System.Drawing.Point(3, 32);
-            this.dashbord1.Name = "dashbord1";
-            this.dashbord1.Size = new System.Drawing.Size(0, 392);
-            this.dashbord1.TabIndex = 241;
             // 
             // Calendar2018
             // 
@@ -11518,18 +11694,27 @@
         private System.Windows.Forms.Label label113;
         private System.Windows.Forms.Label label115;
         private System.Windows.Forms.Label label132;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Cancel;
+        private System.Windows.Forms.Button Save;
+        private System.Windows.Forms.Button Delete;
+        private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button Add3;
+        private System.Windows.Forms.Button Add2;
+        private System.Windows.Forms.Button Save3;
+        private System.Windows.Forms.Button Save2;
+        private System.Windows.Forms.Button Delete3;
+        private System.Windows.Forms.Button Delete2;
+        private System.Windows.Forms.Button Cancel3;
+        private System.Windows.Forms.Button Cancel2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

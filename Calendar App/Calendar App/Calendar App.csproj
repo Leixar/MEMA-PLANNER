@@ -231,6 +231,10 @@
     <None Include="img\Right2.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\delete icon.png" />
+    <None Include="Resources\back icon.png" />
+    <None Include="Resources\Save icon.png" />
+    <None Include="Resources\Add icon.png" />
     <None Include="img\M Logo.png" />
     <None Include="img\Blank Circle.png" />
     <None Include="img\Blank Circle1.png" />
