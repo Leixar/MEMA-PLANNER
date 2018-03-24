@@ -1151,6 +1151,7 @@ namespace Calendar_App
 
         private void Save_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             connection.Open();
             SqlCommand cmd = connection.CreateCommand();
             cmd.CommandType = CommandType.Text;
@@ -1159,6 +1160,8 @@ namespace Calendar_App
             connection.Close();
             textBox1.Text = "";
 
+=======
+>>>>>>> 4a71b1b125c60003b8da026838c53e92f475a475
             textBox1.Enabled = false;
             Add.Visible = true;
             Delete.Visible = true;
@@ -1186,6 +1189,7 @@ namespace Calendar_App
 
         private void Save2_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             connection.Open();
             SqlCommand cmd = connection.CreateCommand();
             cmd.CommandType = CommandType.Text;
@@ -1194,6 +1198,8 @@ namespace Calendar_App
             connection.Close();
             textBox1.Text = "";
 
+=======
+>>>>>>> 4a71b1b125c60003b8da026838c53e92f475a475
             textBox2.Enabled = false;
             Add2.Visible = true;
             Delete2.Visible = true;
@@ -1221,6 +1227,7 @@ namespace Calendar_App
 
         private void Save3_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             connection.Open();
             SqlCommand cmd = connection.CreateCommand();
             cmd.CommandType = CommandType.Text;
@@ -1229,6 +1236,8 @@ namespace Calendar_App
             connection.Close();
             textBox1.Text = "";
 
+=======
+>>>>>>> 4a71b1b125c60003b8da026838c53e92f475a475
             textBox3.Enabled = false;
             Add3.Visible = true;
             Delete3.Visible = true;
@@ -1241,6 +1250,7 @@ namespace Calendar_App
             Add3.Visible = true;
             Delete3.Visible = true;
         }
+<<<<<<< HEAD
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -1256,5 +1266,7 @@ namespace Calendar_App
         {
 
         }
+=======
+>>>>>>> 4a71b1b125c60003b8da026838c53e92f475a475
     }
 }
