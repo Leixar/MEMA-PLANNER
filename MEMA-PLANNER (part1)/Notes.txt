@@ -1,0 +1,22 @@
+MEMA-PLANNER  - Final (Unfinished)
+
+System Requirements :
+
+-Visual Studio 2017
+-XAMPP 3.2.2
+-mysql-connector-net-6.10.6
+
+
+Errors :
+
+-Database from XAMPP is not connected to VS2017.
+-Login page condition doesn't work.
+-Dashboard's "displayImage" and "userName" is not displayed.
+-Reminder events query is unfinished.
+
+
+File includes :
+
+-Calendar App
+-mema_planner.sql
+-Notes
